@@ -4,6 +4,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Router, Route, Switch } from "wouter";
 import Index from "./pages/Index";
+import SobreSabi from "./pages/SobreSabi";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -16,6 +17,7 @@ const App = () => (
       <Router>
         <Switch>
           <Route path="/" component={Index} />
+          <Route path="/sobre-sabi" component={SobreSabi} />
           <Route component={NotFound} />
         </Switch>
       </Router>
