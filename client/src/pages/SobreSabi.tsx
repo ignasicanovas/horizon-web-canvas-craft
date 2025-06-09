@@ -43,6 +43,16 @@ const SobreSabi = () => {
               }}
             />
             
+            {/* SABI CAFÈ text on the right */}
+            <div className="absolute top-6 right-8 z-20">
+              <a 
+                href="/" 
+                className="text-black font-horizon font-black text-2xl hover:opacity-70 transition-opacity"
+              >
+                SABI CAFÈ
+              </a>
+            </div>
+            
             <div 
               className="relative z-10 w-80 h-80 rounded-full overflow-hidden"
               style={{
