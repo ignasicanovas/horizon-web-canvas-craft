@@ -1,11 +1,39 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import React from 'react';
+import Navigation from '../components/Navigation';
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+    <div className="min-h-screen flex relative overflow-hidden">
+      <Navigation />
+      
+      {/* Lado izquierdo con imagen de fondo */}
+      <div className="w-1/2 h-screen relative flex items-center justify-center">
+        <div 
+          className="absolute inset-0 bg-cover bg-center"
+          style={{
+            backgroundImage: `url('/lovable-uploads/6f8d86f6-e5b5-4eea-915e-4c37f2f6be1f.png')`
+          }}
+        />
+        
+        {/* Contenido del título */}
+        <div className="relative z-10 text-center">
+          <h1 className="font-horizon font-black text-8xl md:text-9xl text-black leading-none">
+            <div>SA</div>
+            <div>BI</div>
+            <div className="text-6xl md:text-7xl mt-2">CAFÉ</div>
+          </h1>
+        </div>
+      </div>
+
+      {/* Lado derecho con imagen de fondo */}
+      <div className="w-1/2 h-screen relative">
+        <div 
+          className="absolute inset-0 bg-cover bg-center"
+          style={{
+            backgroundImage: `url('/lovable-uploads/0c5e3e45-0f2f-4d35-9717-37ea6eb57476.png')`
+          }}
+        />
       </div>
     </div>
   );
