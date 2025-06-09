@@ -19,8 +19,8 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				'horizon': ['Press Start 2P', 'monospace'],
-				'sans': ['Press Start 2P', 'monospace'],
+				'horizon': ['Montserrat', 'sans-serif'],
+				'sans': ['Montserrat', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
