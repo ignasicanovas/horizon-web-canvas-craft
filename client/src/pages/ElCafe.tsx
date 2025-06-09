@@ -42,12 +42,22 @@ const ElCafe = () => {
             }}
           />
           
+          {/* SABI CAFÈ text on the right */}
+          <div className="absolute top-6 right-8 z-20">
+            <a 
+              href="/" 
+              className="text-black font-horizon font-black text-2xl hover:opacity-70 transition-opacity"
+            >
+              SABI CAFÈ
+            </a>
+          </div>
+          
           {/* Coffee package image */}
           <div className="relative z-10 flex flex-col items-center">
             <img 
               src={coffeePackage} 
               alt="SABI Coffee Package"
-              className="w-80 h-auto mb-8"
+              className="w-96 h-auto mb-8"
             />
             
             {/* Comprar button */}

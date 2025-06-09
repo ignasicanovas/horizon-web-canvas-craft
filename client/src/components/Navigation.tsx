@@ -19,12 +19,14 @@ const Navigation = () => {
           >
             EL CAFÈ
           </Link>
-          <Link 
-            href="/contacte" 
+          <a 
+            href="https://www.instagram.com/sabi.cafee/" 
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-black font-horizon font-bold text-lg hover:opacity-70 transition-opacity"
           >
             CONTACTE
-          </Link>
+          </a>
         </div>
       </div>
     </nav>
