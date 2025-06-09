@@ -22,13 +22,21 @@ const ElCafe = () => {
             
             <div className="relative z-10 max-w-md">
               <p className="text-black text-lg leading-relaxed font-medium text-justify">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
-                minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-                aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-                culpa qui officia deserunt mollit anim id est laborum.
+                Aquesta no és una venda qualsevol.
+                <br/><br/>
+                Només tenim 8 quilos —aproximadament 32 bosses de 250 g— d'una joia colombiana que ha creuat l'Atlàntic gràcies a una empresa amiga. I ara, amb el teu suport, volem portar el nostre propi cafè de finca directament a Barcelona.
+                <br/><br/>
+                En emportar-te aquesta edició ultra limitada, no només gaudeixes d'un cafè espectacular, sinó que també et converteixes en una part essencial del nostre projecte.
+                <br/><br/>
+                T'expliquem una mica més sobre aquest cafè:
+                <br/><br/>
+                La Finca El Girasol es troba a 1.750 metres sobre el nivell del mar, a les muntanyes del departament del Quindío, a Colòmbia. El cafè creix envoltat de plàtans, cítrics, alvocaters i bosc. Cada cirera de cafè es cull amb cura, només quan és al punt òptim de maduració.
+                <br/><br/>
+                I el caficultor? Es diu Robinson Ortiz, un jove apassionat pel cafè d'especialitat i tercera generació de caficultors.
+                <br/><br/>
+                El cafè és una combinació de les varietats Caturra, Castillo i Colombia, processat amb el mètode innovador semi-washed. Aquest procés únic inclou dues fermentacions meticuloses, que aporten complexitat i caràcter a la tassa.
+                <br/><br/>
+                Per tancar el cercle, l'hem torrat al Maresme de la mà de Panoramic Cafè.
               </p>
             </div>
           </div>

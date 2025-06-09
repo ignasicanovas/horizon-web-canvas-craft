@@ -21,13 +21,13 @@ const SobreSabi = () => {
             
             <div className="relative z-10 max-w-md">
               <p className="text-black text-lg leading-relaxed font-medium text-justify">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
-                minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-                aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-                culpa qui officia deserunt mollit anim id est laborum.
+                Estem molt contents de compartir amb vosaltres l'inici de Sabi.
+                <br/><br/>
+                Aquest projecte neix de la nostra passió pel cafè i de les ganes de fer les coses amb principis i molta passió.
+                <br/><br/>
+                El nostre principal objectiu és crear un canal de comerç just amb productors de cafè amics i coneguts d'Antioquia, Colòmbia. Perquè creiem que el bon cafè va acompanyat de bones històries i relacions sinceres.
+                <br/><br/>
+                Així que ja ho sabeu, ara teniu un nou lloc on aconseguir aquell cafetó que no pot faltar a les vostres matins!
               </p>
             </div>
           </div>
@@ -69,13 +69,13 @@ const SobreSabi = () => {
             
             <div className="relative z-10 max-w-sm">
               <p className="text-black text-sm leading-relaxed font-medium text-justify">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
-                minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-                aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-                culpa qui officia deserunt mollit anim id est laborum.
+                Estem molt contents de compartir amb vosaltres l'inici de Sabi.
+                <br/><br/>
+                Aquest projecte neix de la nostra passió pel cafè i de les ganes de fer les coses amb principis i molta passió.
+                <br/><br/>
+                El nostre principal objectiu és crear un canal de comerç just amb productors de cafè amics i coneguts d'Antioquia, Colòmbia. Perquè creiem que el bon cafè va acompanyat de bones històries i relacions sinceres.
+                <br/><br/>
+                Així que ja ho sabeu, ara teniu un nou lloc on aconseguir aquell cafetó que no pot faltar a les vostres matins!
               </p>
             </div>
           </div>
