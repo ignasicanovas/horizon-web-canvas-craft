@@ -69,8 +69,9 @@ const ElCafe = () => {
               />
               
               <a 
-                href="https://checkout.stripe.com/dummy-link" 
+                href="https://buy.stripe.com/eVq6oI2uCcLB4BC4Ya8N201" 
                 className="bg-white hover:bg-gray-50 text-green-800 font-bold py-3 px-8 rounded-full transition-colors border-2 border-green-800"
+                target="_blank" rel="noopener noreferrer"
               >
                 comprar
               </a>
@@ -111,8 +112,9 @@ const ElCafe = () => {
             />
             
             <a 
-              href="https://checkout.stripe.com/dummy-link" 
+              href="https://buy.stripe.com/eVq6oI2uCcLB4BC4Ya8N201" 
               className="bg-white hover:bg-gray-50 text-green-800 font-bold py-3 px-8 rounded-full transition-colors border-2 border-green-800"
+              target="_blank" rel="noopener noreferrer"
             >
               comprar
             </a>

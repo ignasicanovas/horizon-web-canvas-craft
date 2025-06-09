@@ -2,6 +2,8 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import path from "path";
 import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
+import { execSync } from "child_process";
+import fs from "fs";
 
 export default defineConfig({
   plugins: [
@@ -15,6 +17,15 @@ export default defineConfig({
           ),
         ]
       : []),
+    {
+      name: 'copy-cname',
+      closeBundle: () => {
+        // Copia el archivo CNAME a dist después del build
+        if (fs.existsSync('CNAME')) {
+          fs.copyFileSync('CNAME', path.resolve(__dirname, 'dist', 'CNAME'));
+        }
+      }
+    }
   ],
   resolve: {
     alias: {
@@ -28,5 +39,5 @@ export default defineConfig({
     outDir: path.resolve(import.meta.dirname, "dist"),
     emptyOutDir: true,
   },
-  base: '/sabi-cafe-web/',
+  base: '/',
 });
