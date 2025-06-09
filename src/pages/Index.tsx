@@ -16,12 +16,12 @@ const Index = () => {
           }}
         />
         
-        {/* Contenido del título */}
-        <div className="relative z-10 text-center">
-          <h1 className="font-horizon font-black text-8xl md:text-9xl text-black leading-none">
+        {/* Contenido del título - más grande y más abajo */}
+        <div className="relative z-10 text-center mt-20">
+          <h1 className="font-horizon font-black text-9xl md:text-[12rem] text-black leading-none">
             <div>SA</div>
             <div>BI</div>
-            <div className="text-6xl md:text-7xl mt-2">CAFÉ</div>
+            <div className="text-7xl md:text-8xl mt-4">CAFÈ</div>
           </h1>
         </div>
       </div>
