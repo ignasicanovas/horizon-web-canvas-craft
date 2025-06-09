@@ -1,6 +1,7 @@
 import Navigation from '../components/Navigation';
 import leftImage from '@assets/0cf5bdf2-b836-4f1e-8d7b-aa90de53ae78.png';
 import rightImage from '@assets/524d947f-0bf2-4e57-99cb-325f5bf3f2e7.png';
+import antioquiaImage from '@assets/fotoantioquia_1749493210770.jpg';
 
 const SobreSabi = () => {
   return (
@@ -43,11 +44,17 @@ const SobreSabi = () => {
             />
             
             <div 
-              className="relative z-10 w-80 h-80 rounded-full"
+              className="relative z-10 w-80 h-80 rounded-full overflow-hidden"
               style={{
                 backgroundColor: '#2d5a2d'
               }}
-            />
+            >
+              <img 
+                src={antioquiaImage} 
+                alt="Antioquia landscape"
+                className="w-full h-full object-cover"
+              />
+            </div>
           </div>
         </div>
       </div>

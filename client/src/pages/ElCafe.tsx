@@ -21,7 +21,7 @@ const ElCafe = () => {
             />
             
             <div className="relative z-10 max-w-md">
-              <p className="text-black text-lg leading-relaxed font-medium text-justify">
+              <p className="text-black text-sm leading-relaxed font-medium text-justify">
                 Aquesta no és una venda qualsevol.
                 <br/><br/>
                 Només tenim 8 quilos —aproximadament 32 bosses de 250 g— d'una joia colombiana que ha creuat l'Atlàntic gràcies a una empresa amiga. I ara, amb el teu suport, volem portar el nostre propi cafè de finca directament a Barcelona.
