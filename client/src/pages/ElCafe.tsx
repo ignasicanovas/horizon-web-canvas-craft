@@ -47,13 +47,16 @@ const ElCafe = () => {
             <img 
               src={coffeePackage} 
               alt="SABI Coffee Package"
-              className="w-64 h-auto mb-8"
+              className="w-80 h-auto mb-8"
             />
             
             {/* Comprar button */}
-            <button className="bg-green-700 hover:bg-green-800 text-white font-bold py-3 px-8 rounded-full transition-colors">
+            <a 
+              href="https://checkout.stripe.com/dummy-link" 
+              className="bg-white hover:bg-gray-50 text-green-800 font-bold py-3 px-8 rounded-full transition-colors border-2 border-green-800"
+            >
               comprar
-            </button>
+            </a>
           </div>
         </div>
       </div>
